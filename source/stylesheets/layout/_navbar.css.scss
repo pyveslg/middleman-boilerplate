@@ -2,25 +2,25 @@
  * Colors & Fonts
  * ------------------------------------- */
 $navbar-color: white;
-$navbar-hover-color: $yellow;
+$navbar-hover-color: $emerald;
 $navbar-font-family: $header-font;
 $navbar-bg: transparent;
 
 /* -------------------------------------
  * Box model
  * ------------------------------------- */
-$navbar-height: 80px;
+$navbar-height: 70px;
 $navbar-vertical-padding: 5px;
 $navbar-horizontal-padding: 20px;
 $navbar-border-bottom-width: 0;
-$navbar-border-bottom-color: grey;
+$navbar-border-bottom-color: #50D18D;
 
 /* -------------------------------------
  * Navbar button
  * ------------------------------------- */
 $navbar-btn-height: 40px;
 $navbar-btn-bg: $orange;
-$navbar-btn-color: white;
+$navbar-btn-color: #50D18D;
 $navbar-btn-horizontal-padding: 10px;
 $navbar-btn-radius: 2px;
 
@@ -103,7 +103,7 @@ $navbar-profile-border-width: 2px;
   }
 
   .navbar-toggle {
-    border-color: #dddddd;
+    border-color: #50D18D;
     width: 45px;
     background: transparent;
   }
@@ -124,12 +124,25 @@ $navbar-profile-border-width: 2px;
     margin-left: -5px;
     top: -5px;
     transform: rotate(45deg);
-    border-top: 1px solid #e6e6e6;
-    border-left: 1px solid #e6e6e6;
+    border-top: 1px solid #50D18D;
+    border-left: 1px solid #50D18D;
     z-index: -1;
   }
 }
 
+#logo {
+  width: 145px;
+  height: 51px;
+}
+
+.navbar-header {
+  padding-top: 5px;
+  padding-bottom: 5px;
+}
+
+#icon-bar {
+  background-color: #50D18D;
+}
 /* -------------------------------------
  * Navbar profile picture
  * ------------------------------------- */

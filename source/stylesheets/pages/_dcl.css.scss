@@ -1,0 +1,96 @@
+#banner_dcl {
+  position: relative;
+  background-image: image-url("Head_Banner_blur.png");
+  background-size: cover;
+  color: white;
+  height: 100%;
+  padding: 100px 0;
+
+}
+
+
+.framed {
+  border: 2px;
+  border-color: white;
+  border-style: solid;
+  border-right-width: 60px;
+  line-height: 50px;
+}
+
+
+#dcl {
+
+  padding: 50px 20px;
+  line-height: 24px;
+
+  img {
+    width: 100%;
+    padding: 20px 0;
+  }
+
+  h4 {
+    padding: 20px 0;
+    color: $bondy_blue;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  p {
+    text-align: justify;
+    padding-left: 0px;
+  }
+
+}
+
+.card {
+  line-height: 24px;
+  padding: 30px;
+
+  p {
+    color: white;
+    padding-top: 20px;
+  }
+
+  img {
+    width: 108px;
+  }
+}
+
+#dcl_features {
+  padding: 40px 0;
+}
+
+#claim_dcl {
+  padding: 50px 20px;
+
+  h3 {
+    padding-top: 20px;
+    line-height: 30px;
+  }
+
+  h2 {
+    line-height: 40px;
+    font-weight: bold;
+  }
+}
+
+
+#path {
+  position: relative;
+  background-image: image-url("Bandeaux_Background.png");
+  background-size: cover;
+  color: white;
+  height: 100%;
+  padding: 20px 0;
+
+  img {
+    padding: 20px 0;
+    width: 70%;
+  }
+
+  h2 {
+    color: white;
+    text-align: center;
+  }
+}

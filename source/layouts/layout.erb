@@ -15,6 +15,8 @@
     <%= stylesheet_link_tag "all" %>
     <%= javascript_include_tag  "all" %>
 
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+
     <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
     <!-- Leave those next 4 lines if you care about users using IE8 -->
     <!--[if lt IE 9]>
@@ -30,12 +32,12 @@
         <div class="navbar-header">
           <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
             <span class="sr-only">Toggle navigation</span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
-            <span class="icon-bar"></span>
+            <span class="icon-bar" id="icon-bar"></span>
+            <span class="icon-bar" id="icon-bar"></span>
+            <span class="icon-bar" id="icon-bar"></span>
           </button>
           <% link_to "/index.html", class: "navbar-brand" do %>
-            <%= image_tag "logo.svg" %>
+            <%= image_tag "logo/Logo_Smartexpat_menu.png", id: "logo" %>
           <% end %>
         </div>
 
@@ -44,23 +46,10 @@
 
           <ul class="nav navbar-nav navbar-right">
             <li>
-              <% link_to "/team.html" do %>
-                <i class="fa fa-users"></i> Team
+              <% link_to "/certifications.html" do %>
+                <i class="fa fa-graduation-cap"></i> Certifications
               <% end %>
             </li>
-            <li>
-              <% link_to "/contact.html" do %>
-                <i class="fa fa-envelope-o"></i> Contact
-              <% end %>
-            </li>
-            <li class="dropdown">
-              <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-expanded="false">Follow-us <span class="caret"></span></a>
-              <ul class="dropdown-menu" role="menu">
-                <li><a href="https://www.facebook.com/lewagonformation"><i class="fa fa-facebook-square"></i> Facebook</a></li>
-                <li><a href="https://twitter.com/lewagonparis"><i class="fa fa-twitter-square"></i> Twitter</a></li>
-              </ul>
-            </li>
-            <li><a href="#" data-toggle="modal" data-target="#subscribe-modal" class="btn">Order now</a></li>
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
@@ -71,20 +60,14 @@
     <div id="footer">
       <div class="container">
         <div class="row">
-          <div class="col-xs-4">
-            <ul class="list-inline">
-              <li><a href=""><i class="icon-github"></i></a></li>
-              <li><a href=""><i class="fa fa-instagram"></i></a></li>
-              <li><a href=""><i class="fa fa-facebook"></i></a></li>
-              <li><a href=""><i class="fa fa-twitter"></i></a></li>
-            </ul>
+          <div class="col-xs-1">
           </div>
-          <div class="col-xs-8 text-right">
-            <p>Stylus is a fictive product by LeWagon</p>
+          <div class="col-xs-11 text-left">
+            <p>©2017 • Smartexpat • Cours particuliers de français à Paris • Tous droits réservés</p>
           </div>
         </div>
       </div>
     </div>
-
+  <script src="https://unpkg.com/scrollreveal@3.3.2/dist/scrollreveal.min.js"></script>
   </body>
 </html>
