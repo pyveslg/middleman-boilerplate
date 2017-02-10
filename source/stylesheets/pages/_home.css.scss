@@ -1,3 +1,7 @@
+h1, h2, h3, h4 {
+  font-family: 'Montserrat', sans-serif;
+}
+
 #banner_intro {
   position: relative;
   color: white;
@@ -100,5 +104,9 @@
 @media screen and (min-width: 200px) and (max-width: 1024px) {
   .mobile-video-image {
     display:block;
+  }
+
+  #video_background {
+    display: none;
   }
 }
