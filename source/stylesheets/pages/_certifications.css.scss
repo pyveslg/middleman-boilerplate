@@ -92,10 +92,9 @@
     padding-top: 20px;
   }
 
-  p, h4, img {
+  p, h4 {
     padding-left: 20px;
   }
-
 
   h4 {
     text-align: left;
@@ -104,4 +103,10 @@
     font-weight: bold;
   }
 
+}
+
+@media screen and (min-width: 200px) and (max-width: 654px) {
+  .row {
+    width: 385px;
+  }
 }

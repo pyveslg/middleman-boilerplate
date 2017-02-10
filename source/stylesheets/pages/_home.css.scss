@@ -6,7 +6,7 @@
 #banner_content {
   color: white;
   img {
-    width: 385px;
+    width: 350px;
   }
 }
 
@@ -56,6 +56,8 @@
 
   h1 {
     text-shadow: 0 5px 4px rgba(0,0,0,0.50);
+      font-family: 'Montserrat', sans-serif;
+
   }
 }
 
@@ -80,15 +82,23 @@
 
 .mobile-video-image {
     position: absolute;
-    z-index: 10;
+    z-index: -50;
     top: 0px;
     left: 0px;
-    display: none;
     height: 100%;
     width: 100%;
+    background-image: image-url("Intro_tableau.JPG");
     background-position: center;
     background-repeat: no-repeat;
+    display:none;
     background-size: cover;
     -moz-background-size: cover;
     -webkit-background-size: cover;
   }
+
+
+@media screen and (min-width: 200px) and (max-width: 1024px) {
+  .mobile-video-image {
+    display:block;
+  }
+}
