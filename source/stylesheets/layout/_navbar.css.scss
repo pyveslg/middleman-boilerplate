@@ -34,6 +34,13 @@ $navbar-profile-border-width: 2px;
 /* -------------------------------------
  * SCSS code
  * ------------------------------------- */
+
+.navbar {
+  a {
+  font-family: "Montserrat", "sans-serif";
+  }
+}
+
 .navbar-wagon {
   background: $navbar-bg;
   font-family: "Montserrat", "sans-serif";
