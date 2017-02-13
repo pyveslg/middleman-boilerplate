@@ -86,3 +86,13 @@ activate :deploy do |deploy|
   # deploy.strategy = :submodule # commit strategy: can be :force_push or :submodule, default: :force_push
   # deploy.commit_message = 'custom-message' # commit message (can be empty), default: Automated commit at `timestamp` by middleman-deploy `version`
 end
+
+
+#Localization
+
+activate :i18n,
+:mount_at_root => :en,
+:langs => [:en, :fr]
+
+#Amputation des extensions
+activate :directory_indexes
