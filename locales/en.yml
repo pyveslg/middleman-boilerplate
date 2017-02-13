@@ -3,3 +3,5 @@ en:
   certify: "certificates"
   paths:
     certificates: "certificates"
+    index: "index"
+    dcl: "dcl"

@@ -12,7 +12,7 @@
     <!-- Use title if it's in the page YAML frontmatter -->
     <title><%= current_page.data.title %></title>
     <% if current_page.data.description %>
-    <meta name="description" content=<%= current_page.data.description %>>
+    <meta name="description" content="<%= current_page.data.description %>">
     <% end %>
 
     <%= stylesheet_link_tag "all" %>
@@ -75,6 +75,18 @@
                 <i class="fa fa-graduation-cap"></i> <%= I18n.t(:certify) %>
               </a>
             </li>
+            <li>
+              <a href="<%= current_page.path %>">
+                <%= image_tag "english.png", id: "flag" %>
+                <%= current_page.path %>
+              </a>
+            </li>
+            <li>
+              <a href="fr/<%= current_page.path %>">
+                <%= image_tag "fr_flag.png", id: "flag" %>
+              </a>
+            </li>
+
           </ul>
         </div><!-- /.navbar-collapse -->
       </div><!-- /.container-fluid -->
