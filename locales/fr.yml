@@ -2,4 +2,4 @@
 fr:
   certify: "certifications"
   paths:
-    certificates: "fr/certifications.html"
+    certificates: "certifications.html"
