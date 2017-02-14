@@ -2,6 +2,4 @@
 fr:
   certify: "certifications"
   paths:
-    certificates: "/fr/certifications"
-    index: "/fr/"
-    dcl: "/fr/dcl"
+    certify: "fr/certificates"

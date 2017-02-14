@@ -32,6 +32,10 @@
 # Helpers
 ###
 
+
+# Custom localized Link_to
+
+
 # Automatic image dimensions on image_tag helper
 # activate :automatic_image_sizes
 
@@ -96,3 +100,5 @@ activate :i18n,
 
 #Amputation des extensions
 activate :directory_indexes
+
+
